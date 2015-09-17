@@ -1,0 +1,37 @@
+{
+  "name": "databag",
+  "version": "0.0.1",
+  "description": "Databag (coming soon!)",
+  "main": "index.js",
+  "scripts": {
+    "test": "make MOCHA_OPTS='-C -R dot' test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zand3rs/databag.git"
+  },
+  "keywords": [
+    "databag",
+    "data-bag",
+    "cache",
+    "page",
+    "paginate",
+    "paginator",
+    "pagination"
+  ],
+  "author": "Alexander Magtipon",
+  "license": "ISC",
+  "homepage": "https://github.com/zand3rs/databag",
+  "bugs": {
+    "url": "https://github.com/zand3rs/databag/issues"
+  },
+  "dependencies": {
+    "memori": "^0.4.3"
+  },
+  "devDependencies": {
+    "node-test-helper": "^0.2.6"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
